@@ -45,11 +45,7 @@ You could say the broadest purpose of the hash table is to simply store keys and
 
 - [Hash Tables, Colt Steele](https://cs.slides.com/colt_steele/hash-tables#/2/0/2)
 - [Why Should the length of your has table be prime?](https://medium.com/swlh/why-should-the-length-of-your-hash-table-be-a-prime-number-760ec65a75d1)
-
-https://www.geeksforgeeks.org/hashing-data-structure/
-
-https://www.freecodecamp.org/news/hash-tables/
-
-https://www.cs.usfca.edu/~galles/visualization/ClosedHashBucket.html
-
-https://www.cs.usfca.edu/~galles/visualization/ClosedHash.html
+- https://www.geeksforgeeks.org/hashing-data-structure/
+- https://www.freecodecamp.org/news/hash-tables/
+- https://www.cs.usfca.edu/~galles/visualization/ClosedHashBucket.html
+- https://www.cs.usfca.edu/~galles/visualization/ClosedHash.html
