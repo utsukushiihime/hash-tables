@@ -45,3 +45,7 @@ We’ve been using hash tables for the last 12 weeks, whether we knew it or not.
 https://www.geeksforgeeks.org/hashing-data-structure/
 
 https://www.freecodecamp.org/news/hash-tables/
+
+https://www.cs.usfca.edu/~galles/visualization/ClosedHashBucket.html
+
+https://www.cs.usfca.edu/~galles/visualization/ClosedHash.html
