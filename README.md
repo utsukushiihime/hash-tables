@@ -29,9 +29,9 @@ Hash tables are used to store key-value pairs. They are like arrays, but the key
 
 ## Two examples of Hash Tables
 
-`- example 1`
+`- Objects in Python or JS`
 
-`- example 2`
+`- Spell-checkers`
 
 ## One paragraph explaining what kinds of problems hash tables can solve
 
