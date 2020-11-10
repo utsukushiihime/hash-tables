@@ -60,7 +60,38 @@ class HashTable {
             }
         }
         return "value not found is not found";
-
+    }
+    
+    //filter
+    values() {
+        let valuesArray = [];
+        for (let i = 0; i < this.keyMap.length; i++) {
+            if (this.keyMap[i]) {
+                //return only keys that are not empty
+                for (let j = 0; j < this.keyMap[i].length; j++) {
+                    //if value is not duplicated then put inside valuesArray[]
+                    if (!valuesArray.includes(this.key[i][j][1])) {
+                        valuesArray.push(this.keyMap[i][j][1])
+                    }
+                }
+            }
+        }
+        return valuesArray;
+    }
+    key() {
+        let keysArray = [];
+        for (let i = 0; i < this.keyMap.length; i++) {
+            if (this.keyMap[i]) {
+                //return only keys that are not empty
+                for (let j = 0; j < this.keyMap[i].length; j++) {
+                    //if value is not duplicated then put inside valuesArray[]
+                    if (!keysArray.includes(this.key[i][j][0])) {
+                        keysArray.push(this.keyMap[i][j][0])
+                    }
+                }
+            }
+        }
+        return keysArray;
     }
 }
 
@@ -78,19 +109,3 @@ console.log(exampleTable.search("first key"));;
 exampleTable.delete("first key")
 
 
-//traditionally
-// const traditionalArray = [null, null, ["first key", "first value"], null, null];
-
-// function findKey(key) {
-//     for (let i = 0; i < traditionalArray.length; i++) {
-//         if (traditionalArray[i][0] == key) {
-//             return traditionalArray[i]
-//         } else {
-//             return "not found"
-//         }
-//     }
-// }
-
-// console.log(traditionalArray[2][0])
-
-// console.log(findKey("first key"));
