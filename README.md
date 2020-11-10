@@ -39,7 +39,7 @@ Unlike arrays, hash tables are fast for all of the following operations: finding
 
 ## One paragraph explaining what kinds of problems hash tables can solve
 
-- goes here
+We’ve been using hash tables for the last 12 weeks, whether we knew it or not. They are the underlying structure of both Javascript objects and Python dictionaries — the primary difference between what we’ve been using and the hash table scaffold being that hash table keys must be integers instead of strings. It’s difficult to pin down any particular sort of question that they can be used to solve, since the scope of their use is, essentially, anything where you want to be able to store and manipulate large amounts of information reliably and quickly.
 
 ## Links to Resources
 
