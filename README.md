@@ -21,6 +21,8 @@ By the end of this lesson, you'll be able to:
 - Handy visualizations for a [closed addressing hash table](https://www.cs.usfca.edu/~galles/visualization/OpenHash.html) and an [open addressing hash table](https://www.cs.usfca.edu/~galles/visualization/ClosedHash.html).
 - Twenty fun interview questions, all related to [various hashing techniques](https://www.geeksforgeeks.org/top-20-hashing-technique-based-interview-questions/).
 
+# .
+
 # Deliverables
 
 ## One Paragraph Explanation of Hash Tables
