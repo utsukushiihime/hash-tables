@@ -29,6 +29,8 @@ By the end of this lesson, you'll be able to:
 
 Hash tables are used to store key-value pairs. They are like arrays, but the keys are not ordered. Unlike arrays, hash tables are fast for all of the following operations: finding values, adding new values, and removing values. A good hash should be fast, distribute keys uniformly, and be deterministic.
 
+Hash tables solve the basic problem of how to rapidly locate a unique key within memory.  The hash function turns a messy input (the key) into an orderly output (the index) to be stored in the hash table.  They're why finding an object property value by its key can be so fast.
+
 ## Two examples of Hash Tables
 
 `- Objects in Python or JS`
@@ -38,6 +40,8 @@ Hash tables are used to store key-value pairs. They are like arrays, but the key
 ## One paragraph explaining what kinds of problems hash tables can solve
 
 We’ve been using hash tables for the last 12 weeks, whether we knew it or not. They are the underlying structure of both Javascript objects and Python dictionaries — the primary difference between what we’ve been using and the hash table scaffold being that hash table keys must be integers instead of strings. It’s difficult to pin down any particular sort of question that they can be used to solve, since the scope of their use is, essentially, anything where you want to be able to store and manipulate large amounts of information reliably and quickly.
+
+You could say the broadest purpose of the hash table is to simply store keys and values, in a way that they can be rapidly accessed and modified.  However, they appear to have variety of uses, including checking for the existence of certain values in a dataset, e.g. a spellchecker, or checking whether a given array is a subset of another.
 
 ## Links to Resources
 
