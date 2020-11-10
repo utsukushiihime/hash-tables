@@ -25,11 +25,7 @@ By the end of this lesson, you'll be able to:
 
 ## One Paragraph Explanation of Hash Tables
 
-Hash tables are used to store key-value pairs.
-
-They are like arrays, but the keys are not ordered.
-
-Unlike arrays, hash tables are fast for all of the following operations: finding values`, adding new values, and removing values.
+Hash tables are used to store key-value pairs. They are like arrays, but the keys are not ordered. Unlike arrays, hash tables are fast for all of the following operations: finding values, adding new values, and removing values. A good hash should be fast, distribute keys uniformly, and be deterministic.
 
 ## Two examples of Hash Tables
 
