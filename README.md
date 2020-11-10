@@ -25,26 +25,27 @@ By the end of this lesson, you'll be able to:
 
 ## One Paragraph Explanation of Hash Tables
 
-- this goes here
+Hash tables are used to store key-value pairs.
 
+They are like arrays, but the keys are not ordered.
+
+Unlike arrays, hash tables are fast for all of the following operations: finding values, adding new values, and removing values.
+
+[Source - Hash Tables, Colt Steele](https://cs.slides.com/colt_steele/hash-tables#/2/0/2)
 
 ## Two examples of Hash Tables
 
 - example 1
 - example 2
 
-
 ## One paragraph explaining what kinds of problems hash tables can solve
 
 - goes here
-
 
 ## Links to Resources
 
 - links go here
 
-
 https://www.geeksforgeeks.org/hashing-data-structure/
 
 https://www.freecodecamp.org/news/hash-tables/
-
